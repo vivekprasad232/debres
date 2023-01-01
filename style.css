@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#grd{
+    width: 60%;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid black;
+}
+#grd1{
+    padding: 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(0, 70, 128);
+}
+#grd2{
+    padding: 1rem;
+    color: black;
+    background-color: white;
+}
+#image{
+    display: block;
+    margin:auto;
+    border-radius: 50%;
+}
+.mrgn{
+    margin: 1rem 0;
+}
+#grd1 div ul{
+    padding-left: 2rem;
+}
+.mrgn p{
+    padding: 0 1rem;
+}
